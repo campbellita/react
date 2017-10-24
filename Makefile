@@ -4,7 +4,7 @@
 #  or have it set as environment variable
 
 SENTRY_ORG=testorg-az
-SENTRY_PROJECT=sentry-demos-react-2t
+SENTRY_PROJECT=ec-react-demo
 VERSION=`sentry-cli releases propose-version`
 
 setup_release: create_release associate_commits upload_sourcemaps
